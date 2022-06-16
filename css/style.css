@@ -126,7 +126,6 @@
 .btn-subscribe{
     color: rgba(40, 55, 121, 1);
     font-size: 16px !important;
-    
 }
 .section9{
     background: rgba(27, 113, 161, 0.8);
@@ -154,7 +153,7 @@
         margin-left: 0;
     }
     .image-body img{
-        width: 40% !important;
+        width: 35% !important;
     }
     .section3,.the-article-body-2,.the-article-body-3{
         position: static;
@@ -171,6 +170,14 @@
     .policy{
         width: 100%;
     }
+    .btn-subscribe{
+      margin-top: 5px;
+        
+    }
+    .section7 .the-article-body h4{
+        width: 100%;
+    }
+    
 
 }
 
@@ -197,6 +204,12 @@
     .policy{
         width: 100%;
     }
+    .btn-subscribe{
+        margin-top: 5px;     
+      }
+      .section7 .the-article-body h4{
+        width: 100%;
+    }
 
 }
 @media (max-width: 1025px){
@@ -213,6 +226,10 @@
     .image-body img{
         width:70% ;
     }
+    .btn-subscribe{
+        margin-top: 5px;
+          
+      }
     .section2{
         min-height: 30vh;
     }
@@ -220,6 +237,9 @@
         display: none;
     }
     .policy{
+        width: 100%;
+    }
+    .section7 .the-article-body h4{
         width: 100%;
     }
     .search-doctors{
