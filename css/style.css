@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.search-location{
+    border-radius:8px 0 0 8px ;
+    padding:5px ;
+    width: 140px;
+    border: 1px solid black;
+}
+
+.search-doctors{
+    border-radius:0 8px 8px 0;
+    padding:5px ;
+    margin-left: -4px;
+    width: 400px;
+    border: 1px solid black;
+    border-left: 0;
+}
+.section1-body{
+    background: url("../img/Rectangle\ 187.png") no-repeat;
+    min-height: 20vh;
+}
+
+.image-body{
+    position: absolute;
+    left: 15%;
+    margin-bottom: 15px;
+}
+
+.section2{
+    background: rgba(178, 221, 237, 0.3);
+    font-size: 17.2px;
+    min-height: 80vh;
+}
+.section2 h2{
+    color: rgba(76, 132, 195, 1);
+}
+
+.section2 .card{
+    background:rgba(76, 132, 195, 1);
+    border: 0
+}
+
+.section3{
+    top: -100px;
+    left: 0;
+    position: relative;
+    z-index: 80;
+   
+}
+
+.doctor-yat p{
+    font-size: 17.2px;
+    line-height: 30px;
+}
+
+.section5{
+    background: rgba(178, 221, 237, 0.3);
+}
+
+.section5-header h4, .journey-1 h5, .section6 h4, .section6 h6, .section7 h5{
+    color: rgba(76, 132, 195, 1);
+}
+/* .section6 .card{
+    width: 22rem;
+} */
+.section6 .card p, .section6 .card li{
+    font-size: 12px;
+}
+.section6 .card li{
+    font-size: 12px;
+    font-weight: 500;
+}
+    .the-article-body{
+    background: rgba(178, 221, 237, 0.3);
+    position: absolute;
+    width: 100% !important;
+    min-height: 35vh;
+    padding: 20px 30px;
+    left: 0;
+    
+}
+
+
+.section7 .the-article-body h4{
+    color: rgba(76, 132, 195, 1);
+    width: 20%;
+}
+ .the-article-body-1{
+    min-height: 40vh;
+    position: relative;
+} 
+ .the-article-body-2{
+    position: relative;
+    top: -70px;
+}
+
+  .the-article-body-3{
+    position: relative;
+    top: -250px;
+}
+.the-article-body-2 p{
+    font-size: 12px;
+    width: 95%;
+}
+
+.read-more-link{
+    text-decoration: none;
+    color: rgba(76, 132, 195, 1);
+    font-size: 16px;
+}
+.section8{
+    background: rgba(40, 55, 121, 1);
+}
+.get-update p{
+    width: 85%;
+}
+.email-box{
+    border-radius: 15px;
+    border: 1px solid white;
+    width: 300px;
+}
+.btn-subscribe{
+    color: rgba(40, 55, 121, 1);
+    font-size: 16px !important;
+    
+}
+.section9{
+    background: rgba(27, 113, 161, 0.8);
+}
+.section10{
+    background: rgba(40, 55, 121, 1);
+}
+.policy{
+    width: 20%;
+    margin: 0 auto;
+}
+@media (max-width: 426px){
+    .search-location{
+        border-radius: 0;
+        margin-bottom: 3px;
+        width: 100%;
+        margin-top: 3px;
+    }
+    
+    .search-doctors{
+        border-radius: 0;
+        margin-bottom: 3px;
+        border: 1px solid black;
+        width: 100%;
+        margin-left: 0;
+    }
+    .image-body img{
+        width: 40% !important;
+    }
+    .section3,.the-article-body-2,.the-article-body-3{
+        position: static;
+        margin: 15px 0;
+        
+    }
+    .the-article-body{
+        position: static;
+        width: 100%;
+    }
+    .the-article-body-1{
+        display: none;
+    }
+    .policy{
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 769px){
+    .section3,.the-article-body-2,.the-article-body-3{
+        position: static;
+        margin: 15px 0;
+        
+    }
+    .the-article-body{
+        position: static;
+        min-height: 15vh;
+        width: 100%;
+    }
+    .image-body img{
+        width:70% ;
+    }
+    .section2{
+        min-height: 60vh;
+    }
+    .the-article-body-1{
+        display: none;
+    }
+    .policy{
+        width: 100%;
+    }
+
+}
+@media (max-width: 1025px){
+    .section3,.the-article-body-2,.the-article-body-3{
+        position: static;
+        margin: 15px 0;
+        
+    }
+    .the-article-body{
+        position: static;
+        min-height: 15vh;
+        width: 100%;
+    }
+    .image-body img{
+        width:70% ;
+    }
+    .section2{
+        min-height: 30vh;
+    }
+    .the-article-body-1{
+        display: none;
+    }
+    .policy{
+        width: 100%;
+    }
+    .search-doctors{
+        width: fit-content; 
+    }
+}
